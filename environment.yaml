@@ -1,0 +1,22 @@
+name: AML_project_env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - ipykernel
+  - pandas
+  - numpy
+  - pillow # Image Processing
+
+  - matplotlib
+  - seaborn
+
+  - scikit-learn
+
+  # PyTotch
+  - pytorch
+  - torchvision
+  #- torchaudio
