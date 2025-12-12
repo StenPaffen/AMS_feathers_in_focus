@@ -20,3 +20,7 @@ The repository  for the AML kaggle competition of group 24. Feathers in focus
   - We utilized `BCEWithLogitsLoss` with a dynamically calculated `pos_weight` to penalize the model heavily for missing rare attributes (visual traits).
 - **Multi-Label Concept:** [Multi-Label Image Classification with PyTorch](https://towardsdatascience.com/multi-label-image-classification-with-pytorch-image-tagging-5a41a4a441e8) 
   - Reference for structuring the secondary output head for attribute prediction.*
+
+## Vision Transformer
+- **Baseline model:** [Hugging face ViT](https://huggingface.co/google/vit-base-patch16-224)
+    - Used as a baseline to google/vit-base-patch16-224
