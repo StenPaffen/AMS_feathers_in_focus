@@ -26,5 +26,5 @@ The repository  for the AML kaggle competition of group 24. Feathers in focus
     - Used as a baseline to google/vit-base-patch16-224
 
 ## Initial models from scratch: VGG and Mobilenet inspired
-- **VGG:**[https://arxiv.org/abs/1409.1556]
-- **MobileNet:** [https://arxiv.org/abs/1905.02244]
+- **VGG:** [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
+- **MobileNet:** [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244)
