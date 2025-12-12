@@ -1,9 +1,6 @@
 # AMS_feathers_in_focus
 The repository  for the AML kaggle competition of group 24. Feathers in focus
 
-# AMS_feathers_in_focus
-The repository for the AML Kaggle competition of group 24. Feathers in focus.
-
 # Sources
 ## ResNet18 model
 ### Model Architecture & Transfer Learning
