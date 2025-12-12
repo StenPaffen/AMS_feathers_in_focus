@@ -24,3 +24,7 @@ The repository  for the AML kaggle competition of group 24. Feathers in focus
 ## Vision Transformer
 - **Baseline model:** [Hugging face ViT](https://huggingface.co/google/vit-base-patch16-224)
     - Used as a baseline to google/vit-base-patch16-224
+
+## Initial models from scratch: VGG and Mobilenet inspired
+- **VGG:**[https://arxiv.org/abs/1409.1556]
+- **MobileNet:** [https://arxiv.org/abs/1905.02244]
