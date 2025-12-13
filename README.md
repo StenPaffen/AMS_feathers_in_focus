@@ -43,7 +43,7 @@ The goal of the assignment is to classify 200 bird species using a dataset of ~4
 - **Baseline model:** [Hugging face ViT](https://huggingface.co/google/vit-base-patch16-224)
     - Used as a baseline to google/vit-base-patch16-224
 
-## Initial models from scratch: VGG and Mobilenet inspired
+## Initial models from scratch: Inspired by VGG and Mobilenet
 - **VGG:** [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
     - Used as inspiration for the vgg_model
 - **MobileNet:** [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244)
