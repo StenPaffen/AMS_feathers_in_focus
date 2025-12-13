@@ -1,5 +1,23 @@
 # AMS_feathers_in_focus
-The repository  for the AML kaggle competition of group 24. Feathers in focus
+This repository contains the work of Group 24 | Feathers in Focus for the Applied Machine Learning course in the Data Science Master track.  
+The goal of the assignment is to classify 200 bird species using a dataset of ~4,000 training images and ~4,000 test images, evaluated via a Kaggle competition.
+
+
+# Repo structure
+- **Models:** Saved model weights (`.pth`) for all trained models, loadable via PyTorch.
+- **Notebooks:** Jupyter notebooks containing the full training and evaluation pipelines for each model. All notebooks use fixed random seeds and relative paths to support reproducibility.
+- **runs:** TensorBoard logs for resnet and mobile_vgg model
+- **Submission_csv:** All of the submission files for the kaggle competition are saved here in the required csv format
+- **kaggle repo data:** Dataset provided by Kaggle:
+    - *test_images*: a folder containing all the test images
+    - *train images*: a folder containing all the train images
+    - *attributes.npy*: can be used to load in attributes with numpy belonging to each class
+    - *attributes.txt*: additional info about the attributes
+    - *class_names.npy*: can be used to load in the class names belonging to the numerical labels
+    - *test_images_path.csv*: a csv file including the correct path to test images with dummy labels
+    - *test_images_sample.csv*: a given example submission for formatting purposes
+    - *train_images.csv*: a csv file including the correct path to train images including correct labels
+- **environment.yaml:** Conda environment specification (`.yml`) listing all required packages.
 
 # Sources
 ## ResNet18 model
@@ -27,4 +45,6 @@ The repository  for the AML kaggle competition of group 24. Feathers in focus
 
 ## Initial models from scratch: VGG and Mobilenet inspired
 - **VGG:** [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
+    - Used as inspiration for the vgg_model
 - **MobileNet:** [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244)
+    - Used as inspiration for the vgg_mobile model
